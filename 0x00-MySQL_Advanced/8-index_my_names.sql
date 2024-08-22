@@ -1,3 +1,3 @@
 -- Make index on my_names table
 
-CREATE INDEX my_names_index ON names(name(1));
+CREATE INDEX idx_name_first ON names(name(1));
