@@ -1,6 +1,7 @@
 -- Create trigger
 
-CREATE TRIGGER decrease_items_quantity AFTER INSERT ON orders
+CREATE TRIGGER decrease_items_quantity
+AFTER INSERT ON orders
 FOR EACH ROW
 BEGIN
     UPDATE items
