@@ -1,6 +1,6 @@
 -- Sort by total fans
 
-SELECT origin, SUM(np_fans) AS total_fans
+SELECT origin, SUM(fans) AS np_fans
 FROM metal_bands
 GROUP BY origin
-ORDER BY total_fans DESC
+ORDER BY np_fans DESC
