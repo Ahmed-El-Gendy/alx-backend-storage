@@ -1,2 +1,5 @@
 // Update values
-db.mycollection.updateOne({name: "Holberton school"}, { $set: {"address": "972 Mission street"}});
+db.mycollection.updateOne(
+    {name: "Holberton school"},
+    { $set: {"address": "972 Mission street"}}
+)
